@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:02:44Z",
+  "updatedAt": "2026-11-02T14:04:36Z",
   "talks": [
     {
       "id": -10,
@@ -145,11 +145,11 @@
       "location": "301관 904호",
       "category": "3D·가상융합",
       "venue": "ICCV 2025",
-      "summary": "Class-Incremental Learning에서 heterogeneous·imbalanced 환경을 반영한 XD-VSCIL setting을 정의. 이러한 현실적인 환경에서의 성능 저하 문제를 완화하기 위한 training-free 방법론 HyCal을 제안함.",
+      "summary": "",
       "posterUrl": "",
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/1",
-      "updatedAt": "2026-11-02T14:02:44Z",
+      "updatedAt": "2026-11-02T14:04:36Z",
       "published": true
     }
   ]
