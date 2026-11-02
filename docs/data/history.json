@@ -17,7 +17,7 @@
       "id": -3, "month": "2026-05", "date": "2026. 05. 14. 17:00~18:00", "location": "301관 904호",
       "speaker": "신수철", "affiliation": "채영호 교수님 연구실",
       "title": "Predictive collective control of large-scale kinetic facades via Graph Neural Networks and Reinforcement Learning: From simulation to physical validation",
-      "venue": "JCDE", "category": "미디어·공간 인터랙션", "published": true
+      "venue": "JCDE 2026", "category": "미디어·공간 인터랙션", "published": true
     },
     {
       "id": -4, "month": "2026-06", "date": "2026. 06. 11. 17:00~18:00", "location": "301관 904호",
@@ -47,7 +47,7 @@
       "id": -8, "month": "2026-08", "date": "2026. 08. 13. 10:00~11:00", "location": "301관 904호",
       "speaker": "이교석", "affiliation": "김학구 교수님 연구실",
       "title": "3D point cloud adversarial attack",
-      "venue": "IEEE T-IFS", "category": "AI·컴퓨터 비전", "published": true
+      "venue": "IEEE TIFS 2026", "category": "AI·컴퓨터 비전", "published": true
     },
     {
       "id": -9, "month": "2026-08", "date": "2026. 08. 13. 10:00~11:00", "location": "301관 904호",
@@ -59,7 +59,7 @@
       "id": -10, "month": "2026-09", "date": "2026. 09. 22. 17:00~18:00", "location": "301관 904호",
       "speaker": "계다현", "affiliation": "오지형 교수님 연구실",
       "title": "Image Morphing",
-      "venue": "ECCV 2026", "category": "AI·컴퓨터 비전", "published": true
+      "venue": "ECCV 2026", "category": "AI·컴퓨터 비전", "published": false
     },
     {
       "id": -11, "month": "2026-09", "date": "2026. 09. 22. 17:00~18:00", "location": "301관 904호",

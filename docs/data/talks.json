@@ -11,7 +11,7 @@
       "title": "Image Morphing",
       "venue": "ECCV 2026",
       "category": "AI·컴퓨터 비전",
-      "published": true
+      "published": false
     },
     {
       "id": -11,
@@ -45,7 +45,7 @@
       "speaker": "이교석",
       "affiliation": "김학구 교수님 연구실",
       "title": "3D point cloud adversarial attack",
-      "venue": "IEEE T-IFS",
+      "venue": "IEEE TIFS 2026",
       "category": "AI·컴퓨터 비전",
       "published": true
     },
@@ -129,7 +129,7 @@
       "speaker": "신수철",
       "affiliation": "채영호 교수님 연구실",
       "title": "Predictive collective control of large-scale kinetic facades via Graph Neural Networks and Reinforcement Learning: From simulation to physical validation",
-      "venue": "JCDE",
+      "venue": "JCDE 2026",
       "category": "미디어·공간 인터랙션",
       "published": true
     },
