@@ -1,4 +1,149 @@
 {
   "updatedAt": null,
-  "talks": []
+  "talks": [
+    {
+      "id": -10,
+      "month": "2026-09",
+      "date": "2026. 09. 22. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "계다현",
+      "affiliation": "오지형 교수님 연구실",
+      "title": "Image Morphing",
+      "venue": "ECCV 2026",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -11,
+      "month": "2026-09",
+      "date": "2026. 09. 22. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "김태훈",
+      "affiliation": "최종원 교수님 연구실",
+      "title": "Continual Learning for Deepfake Detection",
+      "venue": "ECCV 2026",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -12,
+      "month": "2026-09",
+      "date": "2026. 09. 22. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "권의영",
+      "affiliation": "오지형 교수님 연구실",
+      "title": "장시간 동적 장면에서 temporal consistency를 유지하며 flicker를 줄이는 효율적인 4D Gaussian Splatting 기반 모션 모델링.",
+      "venue": "CVPR 2026",
+      "category": "3D·가상융합",
+      "published": true
+    },
+    {
+      "id": -8,
+      "month": "2026-08",
+      "date": "2026. 08. 13. 10:00~11:00",
+      "location": "301관 904호",
+      "speaker": "이교석",
+      "affiliation": "김학구 교수님 연구실",
+      "title": "3D point cloud adversarial attack",
+      "venue": "IEEE T-IFS",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -9,
+      "month": "2026-08",
+      "date": "2026. 08. 13. 10:00~11:00",
+      "location": "301관 904호",
+      "speaker": "이예원",
+      "affiliation": "박진완 교수님 연구실",
+      "title": "AI 기반 버추얼 아이돌 '데루루'",
+      "venue": "",
+      "category": "미디어·공간 인터랙션",
+      "published": true
+    },
+    {
+      "id": -6,
+      "month": "2026-07",
+      "date": "2026. 07. 16. 10:00~11:00",
+      "location": "301관 904호",
+      "speaker": "최현규",
+      "affiliation": "엄찬호 교수님 연구실",
+      "title": "FAST-GOAL: Fast and Efficient Global-local Object Alignment Learning",
+      "venue": "IEEE TIP 2026",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -7,
+      "month": "2026-07",
+      "date": "2026. 07. 16. 10:00~11:00",
+      "location": "301관 904호",
+      "speaker": "임병극",
+      "affiliation": "김영빈 교수님 연구실",
+      "title": "Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs",
+      "venue": "ACL 2026 Findings",
+      "category": "멀티모달 AI",
+      "published": true
+    },
+    {
+      "id": -4,
+      "month": "2026-06",
+      "date": "2026. 06. 11. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "최승호",
+      "affiliation": "오지형 교수님 연구실",
+      "title": "Real-image super-resolution (Real-ISR): to recover HR images from LR inputs with mixed, unknown degradations.",
+      "venue": "CVPR 2026",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -5,
+      "month": "2026-06",
+      "date": "2026. 06. 11. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "김형규",
+      "affiliation": "김학구 교수님 연구실",
+      "title": "MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization",
+      "venue": "ICCV 2025",
+      "category": "3D·가상융합",
+      "published": true
+    },
+    {
+      "id": -2,
+      "month": "2026-05",
+      "date": "2026. 05. 14. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "이은주",
+      "affiliation": "김영빈 교수님 연구실",
+      "title": "HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning",
+      "venue": "CVPR 2026",
+      "category": "AI·컴퓨터 비전",
+      "published": true
+    },
+    {
+      "id": -3,
+      "month": "2026-05",
+      "date": "2026. 05. 14. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "신수철",
+      "affiliation": "채영호 교수님 연구실",
+      "title": "Predictive collective control of large-scale kinetic facades via Graph Neural Networks and Reinforcement Learning: From simulation to physical validation",
+      "venue": "JCDE",
+      "category": "미디어·공간 인터랙션",
+      "published": true
+    },
+    {
+      "id": -1,
+      "month": "2026-04",
+      "date": "2026. 04. 16. 17:00~18:00",
+      "location": "301관 904호",
+      "speaker": "이정민",
+      "affiliation": "최종원 교수님 연구실",
+      "title": "InsideOut: Integrated RGB-Radiative Gaussian Splatting for Comprehensive 3D Object Representation",
+      "venue": "ICCV 2025",
+      "category": "3D·가상융합",
+      "published": true
+    }
+  ]
 }
