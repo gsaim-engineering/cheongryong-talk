@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-02T14:11:46Z",
+  "updatedAt": "2026-11-02T14:14:19Z",
   "talks": [
+    {
+      "id": 12,
+      "month": "2026-10",
+      "title": "RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models",
+      "speaker": "이동진",
+      "affiliation": "김영빈 교수님 연구실",
+      "eventDate": "2026-10-20",
+      "time": "17:00~18:00",
+      "date": "2026. 10. 20. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "멀티모달 AI",
+      "venue": "CIKM 2026",
+      "summary": "기존 attention 기반 시각 토큰 프루닝의 한계를 체계적으로 분석하고, 이를 개선한 attention-free RI-Prune을 제안한다. 추가 학습 없이 다양한 멀티이미지 LVLM에 적용 가능하며, 높은 토큰 절감률에서도 성능과 효율성을 효과적으로 유지한다.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/12",
+      "updatedAt": "2026-11-02T14:14:19Z",
+      "published": true
+    },
     {
       "id": 11,
       "month": "2026-09",
