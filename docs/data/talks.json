@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-02T14:10:36Z",
+  "updatedAt": "2026-11-02T14:11:17Z",
   "talks": [
+    {
+      "id": 10,
+      "month": "2026-09",
+      "title": "Continual Learning for Deepfake Detection",
+      "speaker": "김태훈",
+      "affiliation": "최종원 교수님 연구실",
+      "eventDate": "2026-09-22",
+      "time": "17:00~18:00",
+      "date": "2026. 09. 22. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "AI·컴퓨터 비전",
+      "venue": "ECCV 2026",
+      "summary": "논문: Preserving Knowledge Across Space and Time for Continual Video Deepfake Detection\n\nIn continual video deepfake detection, spatial and temporal cues tend to update differently as new fake patterns are learned. This can lead to forgetting of previously learned deepfakes.\n\nWe propose MSFD, a video continual learning method that separately preserves spatial, temporal, and spatiotemporal cues, enabling stable adaptation to new deepfakes without losing past knowledge.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/10",
+      "updatedAt": "2026-11-02T14:11:17Z",
+      "published": true
+    },
     {
       "id": -10,
       "month": "2026-09",
@@ -12,18 +31,6 @@
       "venue": "ECCV 2026",
       "category": "AI·컴퓨터 비전",
       "published": false
-    },
-    {
-      "id": -11,
-      "month": "2026-09",
-      "date": "2026. 09. 22. 17:00~18:00",
-      "location": "301관 904호",
-      "speaker": "김태훈",
-      "affiliation": "최종원 교수님 연구실",
-      "title": "Continual Learning for Deepfake Detection",
-      "venue": "ECCV 2026",
-      "category": "AI·컴퓨터 비전",
-      "published": true
     },
     {
       "id": -12,
