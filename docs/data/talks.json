@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:07:58Z",
+  "updatedAt": "2026-11-02T14:08:28Z",
   "talks": [
     {
       "id": -10,
@@ -62,15 +62,22 @@
       "published": true
     },
     {
-      "id": -6,
+      "id": 6,
       "month": "2026-07",
-      "date": "2026. 07. 16. 10:00~11:00",
-      "location": "301관 904호",
+      "title": "FAST-GOAL: Fast and Efficient Global-local Object Alignment Learning",
       "speaker": "최현규",
       "affiliation": "엄찬호 교수님 연구실",
-      "title": "FAST-GOAL: Fast and Efficient Global-local Object Alignment Learning",
-      "venue": "IEEE TIP 2026",
+      "eventDate": "2026-07-16",
+      "time": "10:00~11:00",
+      "date": "2026. 07. 16. 10:00~11:00",
+      "location": "301관 904호",
       "category": "AI·컴퓨터 비전",
+      "venue": "IEEE TIP 2026",
+      "summary": "CVPR 2025에 발표된 논문에서 효율성을 증대 시켜 IEEE TIP에 extension 함. CLIP 기반 global-local alignment의 계산 효율성과 학습 효율을 동시에 개선하고, 더 적은 데이터와 연산으로도 기존 방법 대비 경쟁력 있는 성능을 달성함.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/6",
+      "updatedAt": "2026-11-02T14:08:28Z",
       "published": true
     },
     {
