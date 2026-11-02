@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-02T14:11:17Z",
+  "updatedAt": "2026-11-02T14:11:46Z",
   "talks": [
+    {
+      "id": 11,
+      "month": "2026-09",
+      "title": "[세미나] 장시간 동적 장면에서 temporal consistency를 유지하며 flicker를 줄이는 효율적인 4D Gaussian Splatting 기반 모션 모델링.",
+      "speaker": "권의영",
+      "affiliation": "오지형 교수님 연구실",
+      "eventDate": "2026-09-22",
+      "time": "17:00~18:00",
+      "date": "2026. 09. 22. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "3D·가상융합",
+      "venue": "CVPR 2026",
+      "summary": "논문: MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification\n\nAnchor Relay 기반의 local 4D motion modeling으로 장시간 시퀀스에서도 flicker와 temporal inconsistency를 억제하여 안정적인 동적 장면 재구성을 달성함.\n전체 시퀀스를 한 번에 저장하지 않고 anchor 단위로 모델을 관리하여 bounded memory로 장시간 4D reconstruction을 확장 가능하게 함.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/11",
+      "updatedAt": "2026-11-02T14:11:46Z",
+      "published": true
+    },
     {
       "id": 10,
       "month": "2026-09",
