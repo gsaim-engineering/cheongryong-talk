@@ -1,0 +1,66 @@
+name: 월별 청룡토크 등록
+description: 공지부터 게시하고, 나중에 같은 이슈에 YouTube 주소를 추가하세요.
+title: "[세미나] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이슈를 제출하면 공개 홈페이지에 표시됩니다. 발표 정보와 포스터에 공개 가능한 자료만 넣어 주세요.
+        영상이 아직 없다면 빈칸으로 두고, 나중에 이 이슈를 수정하여 주소를 추가하면 됩니다.
+  - type: input
+    id: month
+    attributes:
+      label: 발표 연월
+      description: YYYY-MM 형식
+      placeholder: "2026-10"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: 발표 제목
+    validations:
+      required: true
+  - type: input
+    id: speaker
+    attributes:
+      label: 발표자
+  - type: input
+    id: affiliation
+    attributes:
+      label: 발표자 소속
+  - type: input
+    id: date
+    attributes:
+      label: 일시
+      placeholder: "2026. 10. 28. 16:00"
+  - type: input
+    id: location
+    attributes:
+      label: 장소
+  - type: textarea
+    id: summary
+    attributes:
+      label: 발표 소개
+      description: 원본 공지에 있는 내용만 입력해 주세요.
+  - type: input
+    id: poster
+    attributes:
+      label: 포스터 이미지 URL
+      description: 공개 접근이 가능한 이미지 주소가 있을 때만 넣어 주세요.
+      placeholder: "https://..."
+  - type: input
+    id: video
+    attributes:
+      label: YouTube 영상 URL
+      description: 영상이 올라온 뒤 이 이슈를 수정해 추가할 수 있습니다.
+      placeholder: "https://www.youtube.com/watch?v=..."
+  - type: dropdown
+    id: publish
+    attributes:
+      label: 홈페이지 표시
+      options:
+        - 공개
+        - 숨김
+    validations:
+      required: true
