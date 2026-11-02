@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-02T14:15:10Z",
+  "updatedAt": "2026-11-02T14:15:34Z",
   "talks": [
+    {
+      "id": 15,
+      "month": "2026-11",
+      "title": "ReCoG: Relational Concept Graph for Training-Free Personalization",
+      "speaker": "유창선",
+      "affiliation": "권혁준 교수님 연구실",
+      "eventDate": "2026-11-24",
+      "time": "17:00~18:00",
+      "date": "2026. 11. 24. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "멀티모달 AI",
+      "venue": "NeurIPS 2026",
+      "summary": "We presented ReCoG, a training-free personalization framework that builds a Relational Concept Graph to encode discriminative differences between concept pairs.\nAt inference, ReCoG leverages these relational edges to perform explicit pairwise comparisons among candidate concepts to resolve ambiguity.\nExperiments on the new fine-grained FINGER benchmark and established benchmarks show that ReCoG significantly outperforms prior state-of-the-art methods.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/15",
+      "updatedAt": "2026-11-02T14:15:34Z",
+      "published": true
+    },
     {
       "id": 14,
       "month": "2026-11",
