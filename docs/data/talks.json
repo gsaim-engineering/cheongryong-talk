@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:07:02Z",
+  "updatedAt": "2026-11-02T14:07:58Z",
   "talks": [
     {
       "id": -10,
@@ -86,6 +86,25 @@
       "published": true
     },
     {
+      "id": 5,
+      "month": "2026-06",
+      "title": "MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization",
+      "speaker": "김형규",
+      "affiliation": "김학구 교수님 연구실",
+      "eventDate": "2026-06-11",
+      "time": "17:00~18:00",
+      "date": "2026. 06. 11. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "3D·가상융합",
+      "venue": "ICCV 2025",
+      "summary": "MemoryTalker synthesizes personalized 3D facial animation that reflects speaker-specific style from audio input alone. Existing methods require additional priors at inference, such as one-hot speaker labels or guided 3D mesh sequences, to capture speaker-specific style. In contrast, our method requires only audio, which removes inference-time priors and enables practical deployment for unseen speakers.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/5",
+      "updatedAt": "2026-11-02T14:07:58Z",
+      "published": true
+    },
+    {
       "id": 4,
       "month": "2026-06",
       "title": "Real-image super-resolution (Real-ISR): to recover HR images from LR inputs with mixed, unknown degradations.",
@@ -102,18 +121,6 @@
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/4",
       "updatedAt": "2026-11-02T14:07:02Z",
-      "published": true
-    },
-    {
-      "id": -5,
-      "month": "2026-06",
-      "date": "2026. 06. 11. 17:00~18:00",
-      "location": "301관 904호",
-      "speaker": "김형규",
-      "affiliation": "김학구 교수님 연구실",
-      "title": "MemoryTalker: Personalized Speech-Driven 3D Facial Animation via Audio-Guided Stylization",
-      "venue": "ICCV 2025",
-      "category": "3D·가상융합",
       "published": true
     },
     {
