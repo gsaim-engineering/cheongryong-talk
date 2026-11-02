@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:05:18Z",
+  "updatedAt": "2026-11-02T14:06:15Z",
   "talks": [
     {
       "id": -10,
@@ -110,6 +110,25 @@
       "published": true
     },
     {
+      "id": 3,
+      "month": "2026-05",
+      "title": "Predictive collective control of large-scale kinetic facades via Graph Neural Networks and Reinforcement Learning: From simulation to physical validation",
+      "speaker": "신수철",
+      "affiliation": "채영호 교수님 연구실",
+      "eventDate": "2026-05-14",
+      "time": "17:00~18:00",
+      "date": "2026. 05. 14. 17:00~18:00",
+      "location": "301관 904호",
+      "category": "미디어·공간 인터랙션",
+      "venue": "JCDE 2026",
+      "summary": "",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/3",
+      "updatedAt": "2026-11-02T14:06:15Z",
+      "published": true
+    },
+    {
       "id": 2,
       "month": "2026-05",
       "title": "HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning",
@@ -126,18 +145,6 @@
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/2",
       "updatedAt": "2026-11-02T14:05:18Z",
-      "published": true
-    },
-    {
-      "id": -3,
-      "month": "2026-05",
-      "date": "2026. 05. 14. 17:00~18:00",
-      "location": "301관 904호",
-      "speaker": "신수철",
-      "affiliation": "채영호 교수님 연구실",
-      "title": "Predictive collective control of large-scale kinetic facades via Graph Neural Networks and Reinforcement Learning: From simulation to physical validation",
-      "venue": "JCDE 2026",
-      "category": "미디어·공간 인터랙션",
       "published": true
     },
     {
