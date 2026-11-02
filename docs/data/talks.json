@@ -1,5 +1,5 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-11-02T14:02:44Z",
   "talks": [
     {
       "id": -10,
@@ -134,15 +134,22 @@
       "published": true
     },
     {
-      "id": -1,
+      "id": 1,
       "month": "2026-04",
-      "date": "2026. 04. 16. 17:00~18:00",
-      "location": "301관 904호",
+      "title": "InsideOut: Integrated RGB-Radiative Gaussian Splatting for Comprehensive 3D Object Representation",
       "speaker": "이정민",
       "affiliation": "최종원 교수님 연구실",
-      "title": "InsideOut: Integrated RGB-Radiative Gaussian Splatting for Comprehensive 3D Object Representation",
-      "venue": "ICCV 2025",
+      "eventDate": "2026-04-16",
+      "time": "17:00~18:00",
+      "date": "2026. 04. 16. 17:00~18:00",
+      "location": "301관 904호",
       "category": "3D·가상융합",
+      "venue": "ICCV 2025",
+      "summary": "Class-Incremental Learning에서 heterogeneous·imbalanced 환경을 반영한 XD-VSCIL setting을 정의. 이러한 현실적인 환경에서의 성능 저하 문제를 완화하기 위한 training-free 방법론 HyCal을 제안함.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/1",
+      "updatedAt": "2026-11-02T14:02:44Z",
       "published": true
     }
   ]
