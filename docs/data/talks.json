@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:09:01Z",
+  "updatedAt": "2026-11-02T14:09:50Z",
   "talks": [
     {
       "id": -10,
@@ -38,15 +38,22 @@
       "published": true
     },
     {
-      "id": -8,
+      "id": 8,
       "month": "2026-08",
-      "date": "2026. 08. 13. 10:00~11:00",
-      "location": "301관 904호",
+      "title": "3D point cloud adversarial attack",
       "speaker": "이교석",
       "affiliation": "김학구 교수님 연구실",
-      "title": "3D point cloud adversarial attack",
-      "venue": "IEEE TIFS 2026",
+      "eventDate": "2026-08-13",
+      "time": "10:00~11:00",
+      "date": "2026. 08. 13. 10:00~11:00",
+      "location": "301관 904호",
       "category": "AI·컴퓨터 비전",
+      "venue": "IEEE TIFS 2026",
+      "summary": "논문: Deformable 3-D Point Cloud Perturbations Using Cage-Based Deformation for Semantic Consistency\n\n이 논문은 cage-based deformation을 이용해 3D point cloud를 자연스럽게 변형하면서도 높은 공격 성공률을 달성한 점이 우수하다. 기존 방법의 한계였던 비가시성과 공격 성능 간 trade-off를 완화하고, 다양한 데이터셋과 defense 환경에서도 강한 성능을 보여 방법의 효과성을 입증했다.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/8",
+      "updatedAt": "2026-11-02T14:09:50Z",
       "published": true
     },
     {
