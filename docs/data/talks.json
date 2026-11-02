@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:09:50Z",
+  "updatedAt": "2026-11-02T14:10:36Z",
   "talks": [
     {
       "id": -10,
@@ -38,6 +38,25 @@
       "published": true
     },
     {
+      "id": 9,
+      "month": "2026-08",
+      "title": "AI 기반 버추얼 아이돌 '데루루'",
+      "speaker": "이예원",
+      "affiliation": "박진완 교수님 연구실",
+      "eventDate": "2026-08-13",
+      "time": "10:00~11:00",
+      "date": "2026. 08. 13. 10:00~11:00",
+      "location": "301관 904호",
+      "category": "미디어·공간 인터랙션",
+      "venue": "",
+      "summary": "2026 부천 AI 콘텐츠 서밋 ARXR 크리에이터 쇼케이스 당선 프로젝트 및 2026 인문사회분야 박사과정생 연구장려금지원 선정 연구 (논문 발표가 아닌 프로젝트 발표)",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/9",
+      "updatedAt": "2026-11-02T14:10:36Z",
+      "published": true
+    },
+    {
       "id": 8,
       "month": "2026-08",
       "title": "3D point cloud adversarial attack",
@@ -54,18 +73,6 @@
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/8",
       "updatedAt": "2026-11-02T14:09:50Z",
-      "published": true
-    },
-    {
-      "id": -9,
-      "month": "2026-08",
-      "date": "2026. 08. 13. 10:00~11:00",
-      "location": "301관 904호",
-      "speaker": "이예원",
-      "affiliation": "박진완 교수님 연구실",
-      "title": "AI 기반 버추얼 아이돌 '데루루'",
-      "venue": "",
-      "category": "미디어·공간 인터랙션",
       "published": true
     },
     {
