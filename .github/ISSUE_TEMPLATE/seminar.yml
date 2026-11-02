@@ -5,14 +5,22 @@ body:
   - type: markdown
     attributes:
       value: |
-        이슈를 제출하면 공개 홈페이지에 표시됩니다. 발표 정보와 포스터에 공개 가능한 자료만 넣어 주세요.
+        이슈를 제출하면 행사 날짜까지 '예정된 토크'에, 날짜가 지난 뒤에는 '지난 이야기'에 자동으로 표시됩니다.
+        발표 정보와 포스터에 공개 가능한 자료만 넣어 주세요. 한 행사에 발표가 여러 건이면 발표별로 이슈를 작성하세요.
         영상이 아직 없다면 빈칸으로 두고, 나중에 이 이슈를 수정하여 주소를 추가하면 됩니다.
   - type: input
-    id: month
+    id: event-date
     attributes:
-      label: 발표 연월
-      description: YYYY-MM 형식
-      placeholder: "2026-10"
+      label: 행사 날짜
+      description: YYYY-MM-DD 형식으로 입력해 주세요. 이 날짜를 기준으로 예정/지난 목록이 자동 전환됩니다.
+      placeholder: "2026-11-12"
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: 시간
+      placeholder: "17:00~18:00"
     validations:
       required: true
   - type: input
@@ -25,19 +33,36 @@ body:
     id: speaker
     attributes:
       label: 발표자
+    validations:
+      required: true
   - type: input
     id: affiliation
     attributes:
       label: 발표자 소속
   - type: input
-    id: date
-    attributes:
-      label: 일시
-      placeholder: "2026. 10. 28. 16:00"
-  - type: input
     id: location
     attributes:
       label: 장소
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 발표 분야
+      description: 발표의 주된 주제를 선택해 주세요. 첫 화면 분야별 목록에 연결됩니다.
+      options:
+        - AI·컴퓨터 비전
+        - 3D·가상융합
+        - 멀티모달 AI
+        - 미디어·공간 인터랙션
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: 발표 실적
+      description: 논문 학회나 저널 등이 있는 경우에만 입력해 주세요.
+      placeholder: "CVPR 2026"
   - type: textarea
     id: summary
     attributes:
