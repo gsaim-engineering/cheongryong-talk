@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:04:36Z",
+  "updatedAt": "2026-11-02T14:05:18Z",
   "talks": [
     {
       "id": -10,
@@ -110,15 +110,22 @@
       "published": true
     },
     {
-      "id": -2,
+      "id": 2,
       "month": "2026-05",
-      "date": "2026. 05. 14. 17:00~18:00",
-      "location": "301관 904호",
+      "title": "HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning",
       "speaker": "이은주",
       "affiliation": "김영빈 교수님 연구실",
-      "title": "HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning",
-      "venue": "CVPR 2026",
+      "eventDate": "2026-05-14",
+      "time": "17:00~18:00",
+      "date": "2026. 05. 14. 17:00~18:00",
+      "location": "301관 904호",
       "category": "AI·컴퓨터 비전",
+      "venue": "CVPR 2026",
+      "summary": "Class-Incremental Learning에서 heterogeneous·imbalanced 환경을 반영한 XD-VSCIL setting을 정의. 이러한 현실적인 환경에서의 성능 저하 문제를 완화하기 위한 training-free 방법론 HyCal을 제안함.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/2",
+      "updatedAt": "2026-11-02T14:05:18Z",
       "published": true
     },
     {
