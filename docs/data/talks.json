@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:06:15Z",
+  "updatedAt": "2026-11-02T14:07:02Z",
   "talks": [
     {
       "id": -10,
@@ -86,15 +86,22 @@
       "published": true
     },
     {
-      "id": -4,
+      "id": 4,
       "month": "2026-06",
-      "date": "2026. 06. 11. 17:00~18:00",
-      "location": "301관 904호",
+      "title": "Real-image super-resolution (Real-ISR): to recover HR images from LR inputs with mixed, unknown degradations.",
       "speaker": "최승호",
       "affiliation": "오지형 교수님 연구실",
-      "title": "Real-image super-resolution (Real-ISR): to recover HR images from LR inputs with mixed, unknown degradations.",
-      "venue": "CVPR 2026",
+      "eventDate": "2026-06-11",
+      "time": "17:00~18:00",
+      "date": "2026. 06. 11. 17:00~18:00",
+      "location": "301관 904호",
       "category": "AI·컴퓨터 비전",
+      "venue": "CVPR 2026",
+      "summary": "논문: FRAMER: Frequency-Aligned Self-Distillation with Adaptive Modulation Leveraging Diffusion Priors for Real-World Image Super-Resolution\n\nWe introduce FRAMER, a plug-and-play training scheme that exploits diffusion priors without changing the backbone or inference. FRAMER unlocks the high-frequency potential of diffusion models for Real-World Super-Resolution without altering inference. We demonstrate superior performance across both DiT (FRAMERD) and U-Net (FRAMERU) backbones by addressing the \"low-first, high-later\" frequency hierarchy. Across U-Net and DiT backbones, FRAMER consistently improves PSNR/SSIM and perceptual metrics (LPIPS, NIQE, MANIQA, MUSIQ).",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/4",
+      "updatedAt": "2026-11-02T14:07:02Z",
       "published": true
     },
     {
