@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:08:28Z",
+  "updatedAt": "2026-11-02T14:09:01Z",
   "talks": [
     {
       "id": -10,
@@ -62,6 +62,25 @@
       "published": true
     },
     {
+      "id": 7,
+      "month": "2026-07",
+      "title": "Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs",
+      "speaker": "임병극",
+      "affiliation": "김영빈 교수님 연구실",
+      "eventDate": "2026-07-16",
+      "time": "10:00~11:00",
+      "date": "2026. 07. 16. 10:00~11:00",
+      "location": "301관 904호",
+      "category": "멀티모달 AI",
+      "venue": "ACL 2026 Findings",
+      "summary": "기존 DPO 기반 방법들이 GPT-4V 같은 외부 모델로 선호 데이터를 구축하면서 발생하는 분포 불일치 문제를 분석하고 이를 모델 자신의 분포 내 데이터를 활용한 자기 교정 방식으로 해결한다. 또한 객체에 편중된 기존 연구와 달리 객체, 속성, 관계를 모두 검증 및 교정하는 파이프라인을 제시하여, 단 5.2k 샘플만으로 주요 환각 벤치마크에서 SOTA 수준의 성능을 달성했다.",
+      "posterUrl": "",
+      "videoUrl": "",
+      "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/7",
+      "updatedAt": "2026-11-02T14:09:01Z",
+      "published": true
+    },
+    {
       "id": 6,
       "month": "2026-07",
       "title": "FAST-GOAL: Fast and Efficient Global-local Object Alignment Learning",
@@ -78,18 +97,6 @@
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/6",
       "updatedAt": "2026-11-02T14:08:28Z",
-      "published": true
-    },
-    {
-      "id": -7,
-      "month": "2026-07",
-      "date": "2026. 07. 16. 10:00~11:00",
-      "location": "301관 904호",
-      "speaker": "임병극",
-      "affiliation": "김영빈 교수님 연구실",
-      "title": "Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs",
-      "venue": "ACL 2026 Findings",
-      "category": "멀티모달 AI",
       "published": true
     },
     {
