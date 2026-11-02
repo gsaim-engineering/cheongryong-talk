@@ -18,6 +18,42 @@ document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && 
 
 function detail(label, value) { const row = el('div', 'talk-detail'); row.append(el('dt', '', label), el('dd', '', text(value, 200))); return row; }
 
+function todayInSeoul() {
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+  const part = (type) => parts.find(item => item.type === type)?.value || '';
+  return `${part('year')}-${part('month')}-${part('day')}`;
+}
+
+function renderUpcoming(events) {
+  const today = todayInSeoul();
+  const scheduled = events.filter(event => event && /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/.test(event.date) && event.date >= today && Array.isArray(event.talks) && event.talks.some(talk => talk?.title && talk?.speaker)).sort((a, b) => a.date.localeCompare(b.date));
+  if (!scheduled.length) return;
+  const cards = scheduled.map((event, index) => {
+    const article = el('article', 'upcoming-event');
+    const when = el('div', 'upcoming-when');
+    when.append(el('span', 'upcoming-overline', index === 0 ? 'NEXT CHEONGRYONG TALK' : 'UPCOMING CHEONGRYONG TALK'));
+    const [year, month, day] = event.date.split('-');
+    when.append(el('strong', 'upcoming-date', `${month}.${day}`), el('span', 'upcoming-year', `${year}년`));
+    const facts = el('dl', 'upcoming-facts');
+    if (event.time) facts.append(detail('시간', event.time));
+    if (event.location) facts.append(detail('장소', event.location));
+    when.append(facts);
+    const body = el('div', 'upcoming-talks');
+    const presentations = event.talks.filter(item => item?.title && item?.speaker);
+    body.append(el('p', 'eyebrow', `${presentations.length}개의 발표`));
+    for (const talk of presentations) {
+      const item = el('div', 'upcoming-talk');
+      item.append(el('span', 'upcoming-talk-label', '발표 주제'), el('h3', '', text(talk.title, 240)));
+      const speaker = [talk.speaker, talk.affiliation].filter(Boolean).join(' · ');
+      item.append(el('p', 'upcoming-speaker', text(speaker, 240)));
+      body.append(item);
+    }
+    if (validUrl(event.noticeUrl)) body.append(link('발표 공지 보기 ↗', validUrl(event.noticeUrl)));
+    article.append(when, body); return article;
+  });
+  $('#upcoming-content').replaceChildren(...cards);
+}
+
 function renderLatest(talks) {
   if (!talks.length) return;
   const recent = talks.filter(talk => talk.month === talks[0].month);
@@ -106,15 +142,23 @@ function renderFilters(talks) {
 
 async function loadData() {
   try {
-    const [talksResponse, siteResponse] = await Promise.all([fetch('./data/talks.json', { cache: 'no-store' }), fetch('./data/site.json', { cache: 'no-store' })]);
+    const [talksResponse, siteResponse, upcomingResponse] = await Promise.all([fetch('./data/talks.json', { cache: 'no-store' }), fetch('./data/site.json', { cache: 'no-store' }), fetch('./data/upcoming.json', { cache: 'no-store' })]);
     if (!talksResponse.ok || !siteResponse.ok) throw new Error('data unavailable');
     const payload = await talksResponse.json(); const site = await siteResponse.json();
+    if (upcomingResponse.ok) {
+      try { const upcoming = await upcomingResponse.json(); if (Array.isArray(upcoming.events)) renderUpcoming(upcoming.events); }
+      catch (error) { console.warn('예정된 청룡토크 데이터를 읽지 못했습니다.', error); }
+    }
     const talks = Array.isArray(payload.talks) ? payload.talks.filter(t => /^\d{4}-(0[1-9]|1[0-2])$/.test(t.month) && t.title && t.published !== false).sort((a, b) => b.month.localeCompare(a.month) || (b.id || 0) - (a.id || 0)) : [];
     renderLatest(talks); renderArchive(talks); renderFilters(talks);
     const formUrl = validUrl(site.mailingFormUrl);
     if (formUrl) { const a = $('#mailing-link'); a.href = formUrl; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.classList.remove('is-disabled'); a.removeAttribute('aria-disabled'); a.firstChild.textContent = '메일링리스트 신청 '; a.parentElement.querySelector('small').textContent = '신청 내역은 비공개 명단으로 관리됩니다.'; }
     const repo = validUrl(site.repositoryUrl);
-    if (repo && new URL(repo).hostname === 'github.com') { const admin = $('#admin-link'); admin.href = `${repo.replace(/\/$/, '')}/issues/new?template=seminar.yml`; admin.hidden = false; }
+    if (repo && new URL(repo).hostname === 'github.com') {
+      const base = repo.replace(/\/$/, '');
+      const admin = $('#admin-link'); admin.href = `${base}/issues/new?template=seminar.yml`; admin.hidden = false;
+      const upcomingAdmin = $('#upcoming-admin-link'); upcomingAdmin.href = `${base}/edit/main/docs/data/upcoming.json`; upcomingAdmin.hidden = false;
+    }
   } catch (error) { console.error('청룡토크 게시 자료를 불러오지 못했습니다.', error); }
 }
 $('.menu-toggle').addEventListener('click', () => { const open = $('#nav').classList.toggle('open'); $('.menu-toggle').setAttribute('aria-expanded', String(open)); });
