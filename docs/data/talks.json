@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:15:34Z",
+  "updatedAt": "2026-11-02T14:19:33Z",
   "talks": [
     {
       "id": 15,
@@ -80,7 +80,7 @@
     {
       "id": 11,
       "month": "2026-09",
-      "title": "[세미나] 장시간 동적 장면에서 temporal consistency를 유지하며 flicker를 줄이는 효율적인 4D Gaussian Splatting 기반 모션 모델링.",
+      "title": "장시간 동적 장면에서 temporal consistency를 유지하며 flicker를 줄이는 효율적인 4D Gaussian Splatting 기반 모션 모델링.",
       "speaker": "권의영",
       "affiliation": "오지형 교수님 연구실",
       "eventDate": "2026-09-22",
@@ -93,7 +93,7 @@
       "posterUrl": "",
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/11",
-      "updatedAt": "2026-11-02T14:11:46Z",
+      "updatedAt": "2026-11-02T14:19:33Z",
       "published": true
     },
     {
@@ -126,18 +126,6 @@
       "venue": "ECCV 2026",
       "category": "AI·컴퓨터 비전",
       "published": false
-    },
-    {
-      "id": -12,
-      "month": "2026-09",
-      "date": "2026. 09. 22. 17:00~18:00",
-      "location": "301관 904호",
-      "speaker": "권의영",
-      "affiliation": "오지형 교수님 연구실",
-      "title": "장시간 동적 장면에서 temporal consistency를 유지하며 flicker를 줄이는 효율적인 4D Gaussian Splatting 기반 모션 모델링.",
-      "venue": "CVPR 2026",
-      "category": "3D·가상융합",
-      "published": true
     },
     {
       "id": 9,
