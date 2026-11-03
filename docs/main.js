@@ -66,6 +66,10 @@ function renderUpcoming(talks) {
     body.append(el('p', 'eyebrow', `${presentations.length}개의 발표`));
     for (const talk of presentations) {
       const item = el('div', 'upcoming-talk');
+      const tags = el('div', 'archive-tags');
+      if (talk.category) tags.append(el('span', 'category-tag', text(talk.category, 80)));
+      if (talk.venue) tags.append(el('span', 'venue-tag', text(talk.venue, 100)));
+      if (tags.childNodes.length) item.append(tags);
       item.append(el('span', 'upcoming-talk-label', '발표 주제'), el('h3', '', text(talk.title, 240)));
       const speaker = [talk.speaker || '발표자 추후 안내', talk.affiliation].filter(Boolean).join(' · ');
       item.append(el('p', 'upcoming-speaker', text(speaker, 240)));
