@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:18:31Z",
+  "updatedAt": "2026-11-11T13:18:54Z",
   "talks": [
     {
       "id": 15,
@@ -198,9 +198,9 @@
       "venue": "IEEE TIP 2026",
       "summary": "CVPR 2025에 발표된 논문에서 효율성을 증대 시켜 IEEE TIP에 extension 함. CLIP 기반 global-local alignment의 계산 효율성과 학습 효율을 동시에 개선하고, 더 적은 데이터와 연산으로도 기존 방법 대비 경쟁력 있는 성능을 달성함.",
       "posterUrl": "",
-      "videoUrl": "",
+      "videoUrl": "https://youtu.be/Y3OGO1YOagU",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/6",
-      "updatedAt": "2026-11-02T14:08:28Z",
+      "updatedAt": "2026-11-11T13:18:54Z",
       "published": true
     },
     {
