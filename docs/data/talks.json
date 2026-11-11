@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:43:38Z",
+  "updatedAt": "2026-11-11T13:45:02Z",
   "talks": [
     {
       "id": 15,
@@ -14,10 +14,10 @@
       "category": "멀티모달 AI",
       "venue": "NeurIPS 2026",
       "summary": "We presented ReCoG, a training-free personalization framework that builds a Relational Concept Graph to encode discriminative differences between concept pairs.\nAt inference, ReCoG leverages these relational edges to perform explicit pairwise comparisons among candidate concepts to resolve ambiguity.\nExperiments on the new fine-grained FINGER benchmark and established benchmarks show that ReCoG significantly outperforms prior state-of-the-art methods.",
-      "posterUrl": "",
+      "posterUrl": "https://github.com/user-attachments/assets/d12de939-be28-4db2-b1ee-304615aae9d3",
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/15",
-      "updatedAt": "2026-11-11T13:43:38Z",
+      "updatedAt": "2026-11-11T13:45:02Z",
       "published": true
     },
     {
