@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:15:47Z",
+  "updatedAt": "2026-11-11T13:18:31Z",
   "talks": [
     {
       "id": 15,
@@ -141,9 +141,9 @@
       "venue": "",
       "summary": "2026 부천 AI 콘텐츠 서밋 ARXR 크리에이터 쇼케이스 당선 프로젝트 및 2026 인문사회분야 박사과정생 연구장려금지원 선정 연구 (논문 발표가 아닌 프로젝트 발표)",
       "posterUrl": "",
-      "videoUrl": "",
+      "videoUrl": "https://youtu.be/DEHts4PHobQ",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/9",
-      "updatedAt": "2026-11-02T14:10:36Z",
+      "updatedAt": "2026-11-11T13:18:31Z",
       "published": true
     },
     {
