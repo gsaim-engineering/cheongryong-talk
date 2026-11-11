@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:45:02Z",
+  "updatedAt": "2026-11-11T13:45:24Z",
   "talks": [
     {
       "id": 15,
@@ -33,10 +33,10 @@
       "category": "멀티모달 AI",
       "venue": "NeurIPS 2026",
       "summary": "FinAl은 의료 영상-언어 사전학습에서 질병의 중증도처럼 미세한 임상 정보를 보존하기 위해, 기존의 hard one-hot 대조학습 대신 구조화된 판독문에서 추출한 의미적 관계를 soft alignment target으로 활용한다. 이를 통해 임상 소견 간의 순서성과 중첩 관계를 효과적으로 반영하며, 중증도 분류 및 중증도 기반 검색과 같은 세밀한 임상 과제에서 성능을 향상시키면서도 일반적인 coarse-grained 벤치마크에서도 경쟁력 있는 성능을 유지한다.",
-      "posterUrl": "",
+      "posterUrl": "https://github.com/user-attachments/assets/b100e49d-d539-45ca-8dc6-38033378b926",
       "videoUrl": "",
       "noticeUrl": "https://github.com/gsaim-engineering/cheongryong-talk/issues/14",
-      "updatedAt": "2026-11-11T13:32:44Z",
+      "updatedAt": "2026-11-11T13:45:24Z",
       "published": true
     },
     {
